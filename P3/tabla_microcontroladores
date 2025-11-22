@@ -1,0 +1,10 @@
+## TABLA DE MICROCONTROLADORES
+| Característica   | SAMD21                              | ESP32                                   | nRF52840                          |
+|:----------------:|:------------------------------------:|:----------------------------------------:|:----------------------------------:|
+| **Tipo de Core** | ARM Cortex-M0+ (48 MHz)              | Tensilica Xtensa LX6 Dual-Core (240 MHz) | ARM Cortex-M4F (64 MHz, FPU)       |
+| **Memoria RAM**  | 32 KB SRAM                           | 520 KB SRAM                              | 256 KB RAM                         |
+| **Memoria FLASH**| 256 KB Flash                         | Hasta 16 MB externas (típ. 4 MB)         | 1 MB Flash                         |
+| **Memoria ROM**  | 8 KB ROM (bootloader)                | 448 KB ROM (WiFi/BT stack)               | ~1 MB ROM (firmware + SoftDevice)  |
+| **Puertos GPIO** | 38 GPIO                              | 34 GPIO                                  | 48 GPIO                            |
+| **Canales ADC**  | 14 canales (12 bits)                 | 18 canales (12 bits)                     | 8 canales (12 bits)                |
+| **UART**         | 1× SERCOM como UART                  | 3 UARTs                                  | 2 UARTs                            |
